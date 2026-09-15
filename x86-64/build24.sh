@@ -47,6 +47,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始构建固件..."
 # 定义所需安装的包列表 下列插件你都可以自行删减
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
+PACKAGES="$PACKAGES python3-pip"
 PACKAGES="$PACKAGES ss"
 PACKAGES="$PACKAGES bash"
 PACKAGES="$PACKAGES python3"
